@@ -19,6 +19,18 @@
   font-weight: 900;
   font-style: normal;
 }
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* color */
 
@@ -117,4 +129,41 @@ body {
 }
 .action-image img {
     border-radius: 40px;
+}
+
+/* productive section styles */
+
+.productive {
+    background-color: rgba(78, 71, 255, 10%);
+    height: 306px;
+    margin-top: 116px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+    
+}
+.productive-head {
+    font-size: 38px;
+    margin: 0;
+}
+.productive-body {
+    width: 856px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 158px;
+    text-align: center;
+
+}
+.productive-details .inter-bold {
+    font-size: 80px;
+    margin: 0;
+}
+.productive-details .inter-regular {
+    font-size: 20px;
+    margin: 0;
+
 }
