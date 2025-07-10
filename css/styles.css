@@ -1,0 +1,35 @@
+/* font styles */
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* color */
+
+.primary-color {
+    color: #4E47FF;
+}
+
+/* button styles */
+
+.btn {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  background-color: #4E47FF;
+  color: #fff;
+  border: 0;
+  padding: 12px 36px;
+  border-radius: 10px;
+  transition: transform 0.7s, background-color 0.7s, color 0.7s;
+}
+.btn:hover {
+    color: black;
+    background-color: rgb(224, 193, 17);
+    transform: scale(1.03);
+}
